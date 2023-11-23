@@ -36,10 +36,10 @@ FOR MY DRIVER THE MAX CURRENT IS 3.5A POWER SOURCE VOLTAGE 24 V. THE MAX FREQ IS
 #ifdef MODEL_ME_1
   double L =240.0; // mm
   double D1 = 41.0 ;  // Table intrinsic variable
-  double D2 = 35.0 ;  // Table intrinsic variable
+  double D2 = 34.0 ;  // Table intrinsic variable
   const double XMIN = 234.5; // Physical dimension according to the position of the downmost limitswitch
 #else
-//  double L = 240.0; // mm
+//  double L = 240.0; // 
 //  double D1 = 36.0 ; // Até aos patins de apoio
 //  double D2 = 31.0 ;
 //  const double XMIN = 230; // Physical dimension acording to table
